@@ -21,7 +21,7 @@ const Home = () => {
 			{/* Используем компонент Script для загрузки Google Analytics */}
 			<Script
 				async
-				src="https://www.googletagmanager.com/gtag/js?id=AW-16756255523"
+				src="https://www.googletagmanager.com/gtag/js?id=G-RTW7S775B0"
 			/>
 			<Script
 				id="google-analytics"
@@ -30,7 +30,7 @@ const Home = () => {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-16756255523');
+      gtag('config', 'G-RTW7S775B0');
     `,
 				}}
 			/>
