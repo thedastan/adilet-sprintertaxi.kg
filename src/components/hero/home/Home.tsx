@@ -1,9 +1,3 @@
-import {
-	PHONE_NUMBER_557,
-	PHONE_NUMBER_707,
-	WHATSAPP_LINK_557,
-	WHATSAPP_LINK_707,
-} from "@/app/admin/admin";
 import { CONTAINER_WIDTH } from "@/config/_variables.config";
 import { Box,Heading, Button,Link, Container, Flex, Text } from "@chakra-ui/react";
 import Head from "next/head";
@@ -15,7 +9,7 @@ const Home = () => {
 		<>
 			<Head>
 				<title>Портер Такси Бишкек</title> {/* Добавьте заголовок, если это необходимо */}
-				<meta name="description" content="Описание вашей страницы" /> {/* Добавьте описание, если это необходимо */}
+				<meta name="description" content="Быстрый заказ грузовой. Ждем Вашего звонка." /> {/* Добавьте описание, если это необходимо */}
 			</Head>
 			{/* Используем компонент Script для загрузки Google Analytics */}
 			<Script
