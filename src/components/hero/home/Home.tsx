@@ -1,5 +1,5 @@
 import { CONTAINER_WIDTH } from "@/config/_variables.config";
-import { Box,Heading, Button,Link, Container, Flex, Text } from "@chakra-ui/react";
+import { Box,Heading, Button,Link, Container } from "@chakra-ui/react";
 import Head from "next/head";
 import Script from "next/script"; // Импортируем Script из next/script
 import React from "react";
